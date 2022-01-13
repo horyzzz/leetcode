@@ -1,5 +1,5 @@
 class Solution:
-    def findRepeatNumber(self, nums: List[int]) -> int:
+    def findRepeatNumber(self, nums) -> int:
         if not nums:
             return None
         dic = {}

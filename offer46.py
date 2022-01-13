@@ -1,5 +1,8 @@
 class Solution:
     def translateNum(self, num: int) -> int:
+        """
+            dp[i]截止i时可翻译数
+        """
         num1 = str(num)
         n = len(num1)
         dp = [1 for _ in range(n)]
