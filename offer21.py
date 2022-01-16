@@ -1,5 +1,5 @@
 class Solution:
-    def exchange(self, nums: List[int]) -> List[int]:
+    def exchange(self, nums):
         n = len(nums)
         p2 = n - 1
         p1 = 0
