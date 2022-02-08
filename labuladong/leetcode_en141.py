@@ -6,6 +6,10 @@ class ListNode:
 
 class Solution:
     def hasCycle(self, head) -> bool:
+        """
+            双指针
+            slow,fast当二者相遇说明存在环
+        """
         slow, fast = head, head
         while fast and fast.next:
             slow = slow.next
