@@ -1,6 +1,6 @@
 #Definition for a binary tree node.
 """
-    从上到下打印出二叉树的每个节点，同一层的节点按照从左到右的顺序打印。
+    从上到下打印出二叉树的每个节点,同一层的节点按照从左到右的顺序打印。
 """
 
 class TreeNode:

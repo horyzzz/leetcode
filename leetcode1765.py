@@ -6,7 +6,7 @@ class Solution:
         res = [[water - 1 for water in row] for row in isWater]
 
         # BFS
-        # 从水域出发， 保存所有水域 ----使用deque提速
+        # 从水域出发, 保存所有水域 ----使用deque提速
         q = deque()
         for i in range(m):
             for j in range(n):

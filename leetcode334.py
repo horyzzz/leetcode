@@ -2,7 +2,7 @@ class Solution:
     def increasingTriplet(self, nums) -> bool:
         """
             贪心算法
-            为了找到递增的三元子序列，first和second应该尽可能地小，此时找到递增的三元子序列的可能性更大。
+            为了找到递增的三元子序列,first和second应该尽可能地小,此时找到递增的三元子序列的可能性更大。
         """
         if len(nums) < 3:
             return False

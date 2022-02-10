@@ -10,7 +10,7 @@ class Solution:
             graph[x].append(y)
             graph[y].append(x)
         
-        # dist[i][0] 表示从 1 到 i 的最短路长度，
+        # dist[i][0] 表示从 1 到 i 的最短路长度,
         # dist[i][1] 表示从 1 到 i 的严格次短路长度        
         dist = [[float('inf')] * 2 for _ in range(n + 1)]
         dist[1][0] = 0

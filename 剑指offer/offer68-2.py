@@ -10,9 +10,9 @@ class Solution:
         """
             递归
             三种情况：
-            1、p,q分别在root左右，返回root
-            2、p(q)为root，q(p)为左子树节点
-            3、p(q)为root，q(p)为右子树节点
+            1、p,q分别在root左右,返回root
+            2、p(q)为root,q(p)为左子树节点
+            3、p(q)为root,q(p)为右子树节点
         """
         if not root or root == p or root == q:
             return root

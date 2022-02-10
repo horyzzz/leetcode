@@ -7,8 +7,8 @@ class ListNode:
 class Solution:
     def getKthFromEnd(self, head: ListNode, k: int) -> ListNode:
         """
-            第一个指针先走k步，第二个指针开始走
-            当第一个指针走到最后，第二个指针刚好走到倒数第k个（n-k）
+            第一个指针先走k步,第二个指针开始走
+            当第一个指针走到最后,第二个指针刚好走到倒数第k个（n-k）
         """
         p1 = p2 = head
         step = 0

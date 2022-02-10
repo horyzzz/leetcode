@@ -1,7 +1,7 @@
 class Solution:
     def maxValue(self, grid) -> int:
         """
-            dp[i][j] -> 到i，j处的最大礼物值
+            dp[i][j] -> 到i,j处的最大礼物值
             状态转移方程:
             dp[i][j] = max(dp[i-1][j], dp[i][j-1]) + grid[i-1][j-1]
         """

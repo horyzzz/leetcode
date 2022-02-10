@@ -39,8 +39,8 @@ class MedianFinder:
     链接: https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/solution/mian-shi-ti-41-shu-ju-liu-zhong-de-zhong-wei-shu-y/
     """
     def __init__(self):
-        self.A = [] # 小顶堆，保存较大的一半
-        self.B = [] # 大顶堆，保存较小的一半
+        self.A = [] # 小顶堆,保存较大的一半
+        self.B = [] # 大顶堆,保存较小的一半
 
     def addNum(self, num: int) -> None:
         if len(self.A) != len(self.B):

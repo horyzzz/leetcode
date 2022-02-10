@@ -63,7 +63,7 @@ class Solution:
             
             return True
         
-        # 遍历第一个数字起始位，第二个数字起始位的所有可能
+        # 遍历第一个数字起始位,第二个数字起始位的所有可能
         for i in range(len(num) - 1):
             for j in range(i+1, len(num)):
                 if dfs(i, j):

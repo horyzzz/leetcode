@@ -8,7 +8,7 @@ class TreeNode:
 class Solution:
     def kthLargest(self, root: TreeNode, k: int) -> int:
         """
-            BST 中序遍历为有序遍历，左根右（顺序） 右根左（逆序）
+            BST 中序遍历为有序遍历,左根右（顺序） 右根左（逆序）
         """
 
         if not root or k == 0:
